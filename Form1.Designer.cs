@@ -135,6 +135,7 @@
             this.label2.Size = new System.Drawing.Size(78, 19);
             this.label2.TabIndex = 9;
             this.label2.Text = "FullName";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 

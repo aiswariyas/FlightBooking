@@ -34,13 +34,13 @@ namespace FlightBooking
                 Lbldoc.Text = "IDCard no: ";
                 LblDocexp.Text = "IDCard Expiry Date: ";
             }
-            Lblfn.Text = FlightBooking.FirstName + " " + FlightBooking.LastName;
-            Lbldeptcity.Text = FlightBooking.From;
-            Lbldestcity.Text = FlightBooking.To;
-            LblTrp.Text = FlightBooking.TripstartDate + " " + FlightBooking.TripendDate;
-            Lbldoc.Text = FlightBooking.DocumentNo;
-            LblDocexp.Text = FlightBooking.ExpiryDate;
-            Lblbaggages.Text = FlightBooking.WeighBaggage;
+            label2.Text = FlightBooking.FirstName + " " + FlightBooking.LastName;
+            label4.Text = FlightBooking.From;
+            label3.Text = FlightBooking.To;
+            label5.Text = FlightBooking.TripstartDate + " " + FlightBooking.TripendDate;
+            label6.Text = FlightBooking.DocumentNo;
+            label7.Text = FlightBooking.ExpiryDate;
+            label8.Text = FlightBooking.WeighBaggage;
 
 
 
@@ -49,6 +49,11 @@ namespace FlightBooking
         }
 
         private void button2_Click(object sender, EventArgs e)
+        {
+            this. Hide();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
         {
 
         }
